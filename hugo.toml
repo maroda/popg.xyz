@@ -1,0 +1,73 @@
+baseurl                 = "https://popg.xyz/"
+title                   = "Practice of Practice Gamelan"
+enableRobotsTXT         = true
+enableEmoji             = true
+theme                   = "jane"
+
+paginate                = 1     # Number of articles displayed on the homepage
+rssLimit                = 20    # Limit Entry Count to Rss file
+disqusShortname         = ""
+googleAnalytics         = ""
+copyright               = ""    # default: author.name
+defaultContentLanguage  = "en"
+
+[languages.en]
+  languageCode          = "en-US"
+
+[author]
+  name                  = "craquemattic"
+  url                   = "/about"
+
+[sitemap]
+  changefreq            = "weekly"
+  priority              = 0.5
+  filename              = "sitemap.xml"
+
+[menu]
+  [[menu.main]]
+    name                = "Entre"
+    weight              = 10
+    identifier          = "home"
+    pageref             = "/"
+  [[menu.main]]
+    name                = "Browse"
+    weight              = 20
+    identifier          = "archives"
+    pageref             = "/post/"
+  [[menu.main]]
+    name                = "Tag Cloud"
+    weight              = 30
+    identifier          = "tags"
+    pageref             = "/tags/"
+  [[menu.main]]
+    name                = "Categories"
+    weight              = 40
+    identifier          = "categories"
+    pageref             = "/categories/"
+
+[params]
+  since                 = "2023"
+  homeFullContent       = true
+  rssFullContent        = true
+
+  # site info (optional)
+  logoTitle             = "practice of practice gamelan"
+  keywords              = ["popg", "improvisation", "learning"]
+  description           = "Continuous Learning through Improvisation"
+  dateFormatToUse       = "2006-01-02"
+
+  toc                   = true
+  photoswipe            = true  # see https://github.com/dimsemenov/PhotoSwipe
+  contentCopyright      = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS             = []    # if ['custom.css'], load '/static/css/custom.css' file
+  customJS              = []    # if ['custom.js'], load '/static/js/custom.js' file
+
+  [params.social]
+    a-email             = "mailto:maroda@gmail.com"
+    e-linkedin          = "https://www.linkedin.com/in/mattcookedavis"
+    g-github            = "https://github.com/maroda/popg.xyz"
+    s-mastodon          = "http://c.im/@dtauvdiodr"
+
