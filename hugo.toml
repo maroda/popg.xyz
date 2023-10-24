@@ -7,7 +7,7 @@ theme                   = "jane"
 paginate                = 1     # Number of articles displayed on the homepage
 rssLimit                = 20    # Limit Entry Count to Rss file
 disqusShortname         = ""
-googleAnalytics         = ""
+googleAnalytics         = "G-PCMRY790P8"
 copyright               = ""    # default: author.name
 defaultContentLanguage  = "en"
 
